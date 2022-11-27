@@ -1,0 +1,21 @@
+.space{
+    height: 20px;
+}
+
+.divider-h{
+    width: 100%;
+    border-top: 1px solid #ababab;
+}
+
+.divider-v{
+    height: 100%;
+    border-left: 1px solid #ababab;
+}
+
+.light-green{
+    background-color: #0f9d58;
+}
+
+.active{
+    border-left: 4px solid #e84435;
+}

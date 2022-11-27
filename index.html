@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YemekSepeti Restoran Kontrol Paneli</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div id="left-panel">
+            <div id="header">
+                <img id="ys-logo" src="img/logo.png" alt="YemekSepeti"> <!-- LOGO -->
+                <h2>Hang Out</h2> <!-- RESTORAN ADI -->
+            </div>
+            <div id="nav">
+                <ul>
+                    <li class="active"><a href="#">Siparişler</a></li>
+                    <li><a href="#">Sipariş Geçmişi</a></li>
+                    <li><a href="#">Menü</a></li>
+                    <li><a href="#">Performans</a></li>
+                    <div class="space"></div>
+                    <li><a href="#">Ayarlar</a></li>
+                    <div class="space"></div>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">ipsum</a></li>
+                    <li><a href="#">dolor sit</a></li>
+                    <li><a href="#">amet</a></li>
+                </ul>
+            </div>
+            <div class="divider-h"></div>
+            <div id="help-info">
+                <div id="help">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-headphones" style="margin-right: 0.6rem;"></i> Yardım Merkezi</a></li>
+                        <li><a href="#"><i class="fa-solid fa-arrow-left-long" style="margin-right: 0.6rem;"></i> Çıkış yap</a></li>
+                    </ul>
+                </div>
+                <div id="info">
+                    <p>
+                        Platform Satıcı ID: lorem<br>
+                        Sürüm 10765iWEB WEB-NA<br>
+                        <b>Recreator:</b> <a href="https://github.com/dogusmiuw" target="_blank" id="github-link">dous</a>
+                    </p> 
+                </div>
+            </div>
+        </div>
+        <div class="divider-v"></div>
+        <div id="new-orders">
+            <h1>Yeni <span class="count">0</span></h1>
+            <div class="order-list">
+                <p>Yeni sipariş yok.</p>
+            </div>
+        </div>
+        <div class="divider-v"></div>
+        <div id="approved-orders">
+            <h1>Onaylandı <span class="count">0</span></h1>
+            <div class="order-list">
+                <p>Onaylanan sipariş yok.</p>
+            </div>
+        </div>
+    </div>
+    <div id="open-close">
+        <div id="light" class="light-green"></div>
+        <p id="open-close-info">açık</p>
+    </div>
+</body>
+</html>
