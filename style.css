@@ -91,20 +91,22 @@ body{
     position: fixed;
     top:1.3rem;
     right: 1.3rem;
-    width: 120px;
+    width: 100px;
     font-weight: 800;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.6rem;
+    gap: 1rem;
     border-radius: 3px;
     box-shadow: 0 0 15px 0 #ababab;
+    font-size: 0.6rem;
+    height: 40px;
 }
 
 #light{
-    height: 25px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
 }
 
@@ -121,4 +123,26 @@ li.active > a{
 
 #github-link:hover{
     text-decoration: underline;
+}
+
+#missed-orders{
+    background-color: #2e2e2e;
+    padding: 0 1.2rem;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    display: grid;
+    place-items: center;
+    margin-left: 320px;
+}
+
+#footer-container{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
